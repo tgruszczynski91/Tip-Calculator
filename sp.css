@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+
+body {
+  background: linear-gradient(180deg, rgba(85,123,180,0.9976365546218487) 31%, rgba(25,38,57,0.8827906162464986) 100%);
+  font-family: "Inria Sans";
+  align-items: center;
+  height: 85vh;
+}
+
+.container {
+  background-color: #F5F0F6;
+  border-radius: 20px;
+  width: 350px;
+  margin: 100px auto;
+  -webkit-box-shadow: 7px 7px 19px 1px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 7px 7px 19px 1px rgba(0, 0, 0, 0.45);
+  box-shadow: 7px 7px 19px 1px rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+.container div {
+  margin: 15px 20px;
+}
+
+.container h1 {
+  background-color: #385F71;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-size: 25px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container p {
+  font-size: 17px;
+}
+
+.container input {
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(157, 209, 241, 1);
+  width: 50%;
+  font-size: 14px;
+}
+
+.container input:focus {
+  outline: 0;
+  border-color: #031927;
+}
+
+.container select {
+  width: 50%;
+  height: 20px;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 14px;
+  outline: 0;
+}
+
+#btn {
+  margin: 15px 110px;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #385F71;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.total {
+  font-size: 20px;
+  text-align: center;
+}
+
+small {
+  color: red;
+}
